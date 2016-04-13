@@ -1,0 +1,46 @@
+
+##teamcity[testCount count='5' flowId='24689']
+
+##teamcity[testSuiteStarted name='unit' flowId='24689']
+
+##teamcity[testStarted name='tryExample' flowId='24689']
+
+##teamcity[testFinished name='tryExample' duration='0' flowId='24689']
+
+##teamcity[testStarted name='tryExample' flowId='24689']
+
+##teamcity[testFinished name='tryExample' duration='0' flowId='24689']
+
+##teamcity[testStarted name='neprihlasen' flowId='24689']
+
+##teamcity[testFinished name='neprihlasen' duration='0' flowId='24689']
+
+##teamcity[testStarted name='prihlasen' flowId='24689']
+
+##teamcity[testFinished name='prihlasen' duration='0' flowId='24689']
+
+##teamcity[testStarted name='logo' flowId='24689']
+
+##teamcity[testFailed name='logo' message='Failed asserting that 2 matches expected 1.' details=' /home/davert/Codeception/src/Codeception/Module/Asserts.php:23|n /home/davert/projects/codecept21/tests/_support/_generated/UnitTesterActions.php:30|n /home/davert/projects/codecept21/tests/unit/SampleCest.php:28|n /home/davert/Codeception/codecept:32|n ' actual='2' expected='1' flowId='24689']
+
+##teamcity[testFinished name='logo' duration='10' flowId='24689']
+
+##teamcity[testSuiteFinished name='unit' flowId='24689']
+
+##teamcity[testSuiteStarted name='acceptance' flowId='24689']
+
+##teamcity[testStarted name='tryToTest' flowId='24689']
+
+##teamcity[testFailed name='tryToTest' message='Failed asserting that any element by |'h1|' on page <bold>/</bold>|nElements: |n+ <info><h1> How people build software</info>|ncontains text |'Where software is built|'' details=' /home/davert/Codeception/src/Codeception/Module/WebDriver.php:2246|n /home/davert/Codeception/src/Codeception/Module/WebDriver.php:639|n /home/davert/projects/codecept21/tests/_support/_generated/AcceptanceTesterActions.php:344|n /home/davert/projects/codecept21/tests/_support/Step/Acceptance/Home.php:11|n /home/davert/projects/codecept21/tests/acceptance/HomeCest.php:11|n /home/davert/Codeception/codecept:32|n ' flowId='24689']
+
+##teamcity[testFinished name='tryToTest' duration='2550' flowId='24689']
+
+##teamcity[testStarted name='tryToTest' flowId='24689']
+
+##teamcity[testFinished name='tryToTest' duration='0' flowId='24689']
+
+##teamcity[testStarted name='tryToTest' flowId='24689']
+
+##teamcity[testFinished name='tryToTest' duration='0' flowId='24689']
+
+##teamcity[testSuiteFinished name='acceptance' flowId='24689']
